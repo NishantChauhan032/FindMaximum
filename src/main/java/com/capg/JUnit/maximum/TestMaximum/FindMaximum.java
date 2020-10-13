@@ -1,46 +1,41 @@
 package com.capg.JUnit.maximum.TestMaximum;
 
-import java.util.Scanner;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class FindMaximum<T extends Comparable<T>> {
 	private static Logger LOG = LogManager.getLogger(FindMaximum.class);
-	static Scanner sc = new Scanner(System.in);
-	
-	private T firstValue;
-	private T secondValue;
-	private T thirdValue;
-	
-	public FindMaximum(T firstValue, T secondValue, T thirdValue) {
+
+	private T[] myArray;
+
+	public FindMaximum(T[] myArray) {
 		super();
-		this.firstValue = firstValue;
-		this.secondValue = secondValue;
-		this.thirdValue = thirdValue;
-	}
-	
-	public T findMax() {
-		return findMax(firstValue,secondValue,thirdValue);
-		
+		this.myArray = myArray;
 	}
 
-	public static <T extends Comparable<T>> T findMax(T firstValue, T secondValue, T thirdValue) {
-		T maximumOfThree = firstValue;
-		if (secondValue.compareTo(maximumOfThree) > 0) {
-			maximumOfThree = secondValue;
-		}
-		if (thirdValue.compareTo(maximumOfThree) > 0) {
-			maximumOfThree = thirdValue;
-		}
-		return maximumOfThree;
+	public T findMax() {
+		return findMax(myArray);
+
+	}
+
+	public static <T extends Comparable<T>> T findMax(T[] myArrayListElement) {
+		int tryIndex = 0;
+		for (int index = 1; index < myArrayListElement.length; index++)
+			if (myArrayListElement[index].compareTo(myArrayListElement[tryIndex]) > 0)
+				tryIndex = index;
+		return myArrayListElement[tryIndex];
 	}
 
 	public static void main(String[] args) {
 
-		LOG.info("Maximum Number in 32,23,46 is : " + (new FindMaximum<Integer>(32, 23, 46).findMax()));
-		LOG.info("Maximum Number in 2.5f,3.5f,9.5f is : " + (new FindMaximum<Float>(2.5f, 3.5f, 9.5f).findMax()));
-		LOG.info("Maximum String in Apple,Peach,Banana is : " + (new FindMaximum<String>("Apple", "Peach", "Banana").findMax()));
+		Integer[] integerArray = { 32, 23, 46, 93, 66 };
+		LOG.info("Maximum Number in 32,23,46,93,66 is : " + (new FindMaximum<Integer>(integerArray).findMax()));
+
+		Float[] floatArray = { 1.1f, 2.1f, 3.1f, 4.1f };
+		LOG.info("Maximum Number in 1.1f,2.1f,3.1f,4.1f is : " + (new FindMaximum<Float>(floatArray).findMax()));
+
+		String[] stringArray = { "hi", "hello", "hey", "hola" };
+		LOG.info("Maximum String in hi,hello,hey,hola is : " + (new FindMaximum<String>(stringArray).findMax()));
 
 	}
 }
