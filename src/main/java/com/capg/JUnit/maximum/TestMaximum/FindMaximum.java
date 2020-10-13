@@ -1,7 +1,5 @@
 package com.capg.JUnit.maximum.TestMaximum;
 
-import java.util.Arrays;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

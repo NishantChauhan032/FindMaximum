@@ -111,3 +111,6 @@ INFO  | 2020-10-13 23:22:48 | [main] TestMaximum.FindMaximum (FindMaximum.java:4
 INFO  | 2020-10-13 23:45:09 | [main] TestMaximum.FindMaximum (FindMaximum.java:41) - Maximum Number in 32,23,46,93,66 is : 93
 INFO  | 2020-10-13 23:45:09 | [main] TestMaximum.FindMaximum (FindMaximum.java:44) - Maximum Number in 1.1f,2.1f,3.1f,4.1f is : 4.1
 INFO  | 2020-10-13 23:45:09 | [main] TestMaximum.FindMaximum (FindMaximum.java:47) - Maximum String in hi,hello,hey,hola is : hola
+INFO  | 2020-10-14 00:08:04 | [main] TestMaximum.FindMaximum (FindMaximum.java:39) - Maximum Number in 32,23,46,93,66 is : 93
+INFO  | 2020-10-14 00:08:04 | [main] TestMaximum.FindMaximum (FindMaximum.java:42) - Maximum Number in 1.1f,2.1f,3.1f,4.1f is : 4.1
+INFO  | 2020-10-14 00:08:04 | [main] TestMaximum.FindMaximum (FindMaximum.java:45) - Maximum String in hi,hello,hey,hola is : hola
