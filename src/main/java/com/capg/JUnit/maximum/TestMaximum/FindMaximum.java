@@ -5,30 +5,42 @@ import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class FindMaximum {
+public class FindMaximum<T extends Comparable<T>> {
 	private static Logger LOG = LogManager.getLogger(FindMaximum.class);
 	static Scanner sc = new Scanner(System.in);
+	
+	private T firstValue;
+	private T secondValue;
+	private T thirdValue;
+	
+	public FindMaximum(T firstValue, T secondValue, T thirdValue) {
+		super();
+		this.firstValue = firstValue;
+		this.secondValue = secondValue;
+		this.thirdValue = thirdValue;
+	}
+	
+	public T findMax() {
+		return findMax(firstValue,secondValue,thirdValue);
+		
+	}
 
-	public static Integer findMaximumInteger(Integer number1, Integer number2, Integer number3) {
-		Integer maximumOfThree = number1;
-		if (number2.compareTo(number1) > 0)
-			maximumOfThree = number2;
-		if (number3.compareTo(number1) > 0)
-			maximumOfThree = number3;
-		LOG.info("Maximum Number is : " + maximumOfThree);
+	public static <T extends Comparable<T>> T findMax(T firstValue, T secondValue, T thirdValue) {
+		T maximumOfThree = firstValue;
+		if (secondValue.compareTo(maximumOfThree) > 0) {
+			maximumOfThree = secondValue;
+		}
+		if (thirdValue.compareTo(maximumOfThree) > 0) {
+			maximumOfThree = thirdValue;
+		}
 		return maximumOfThree;
-
 	}
 
 	public static void main(String[] args) {
 
-		LOG.info("Enter Number 1 : ");
-		Integer n1 = sc.nextInt();
-		LOG.info("Enter Number 2 : ");
-		Integer n2 = sc.nextInt();
-		LOG.info("Enter Number 3 : ");
-		Integer n3 = sc.nextInt();
-		findMaximumInteger(n1, n2, n3);
+		LOG.info("Maximum Number in 32,23,46 is : " + (new FindMaximum<Integer>(32, 23, 46).findMax()));
+		LOG.info("Maximum Number in 2.5f,3.5f,9.5f is : " + (new FindMaximum<Float>(2.5f, 3.5f, 9.5f).findMax()));
+		LOG.info("Maximum String in Apple,Peach,Banana is : " + (new FindMaximum<String>("Apple", "Peach", "Banana").findMax()));
 
 	}
 }
