@@ -7,27 +7,30 @@ public class FindMaximumTest{
 	
 	@Test
 	public void givenMaximumNumber_atFirstPosition_shouldReturnSameNumber() {
-		Integer number1 = 32;
-		Integer number2 = 23;
-		Integer number3 = 29;
-		Integer maximumOfThree = FindMaximum.findMaximumInteger(number1,number2,number3);
-		Assert.assertEquals(number1, maximumOfThree);	}
+		Integer maximumOfThree = FindMaximum.findMaximumInteger(32,23,11);
+		Assert.assertEquals((Integer)32, maximumOfThree);
+	
+		Float maximumFloatOfThree = FindMaximum.findMaximumFloat(9.1f, 3.1f, 2.1f);
+		Assert.assertEquals((Float)9.1f, maximumFloatOfThree);
+	}
 	
 	@Test
 	public void givenMaximumNumber_atSecondPosition_shouldReturnSameNumber() {
-		Integer number1 = 32;
-		Integer number2 = 93;
-		Integer number3 = 29;
-		Integer maximumOfThree = FindMaximum.findMaximumInteger(number1,number2,number3);
-		Assert.assertEquals(number2, maximumOfThree);	}
+		Integer maximumOfThree = FindMaximum.findMaximumInteger(32,93,29);
+		Assert.assertEquals((Integer)93, maximumOfThree);
+	
+		Float maximumFloatOfThree = FindMaximum.findMaximumFloat(3.1f, 9.1f, 2.1f);
+		Assert.assertEquals((Float)9.1f, maximumFloatOfThree);
+	}
 	
 	@Test
 	public void givenMaximumNumber_atThirdPosition_shouldReturnSameNumber() {
-		Integer number1 = 32;
-		Integer number2 = 23;
-		Integer number3 = 92;
-		Integer maximumOfThree = FindMaximum.findMaximumInteger(number1,number2,number3);
-		Assert.assertEquals(number3, maximumOfThree);	}
+		Integer maximumOfThree = FindMaximum.findMaximumInteger(32,31,98);
+		Assert.assertEquals((Integer)98, maximumOfThree);
+	
+		Float maximumFloatOfThree = FindMaximum.findMaximumFloat(3.1f, 2.1f, 9.1f);
+		Assert.assertEquals((Float)9.1f, maximumFloatOfThree);
+	}
 }
 
 
