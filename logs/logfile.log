@@ -1,0 +1,45 @@
+INFO  | 2020-10-13 16:05:29 | [main] TestMaximum.FindMaximum (FindMaximum.java:31) - Enter Number 1 : 
+INFO  | 2020-10-13 16:05:38 | [main] TestMaximum.FindMaximum (FindMaximum.java:33) - Enter Number 2 : 
+INFO  | 2020-10-13 16:05:42 | [main] TestMaximum.FindMaximum (FindMaximum.java:35) - Enter Number 3 : 
+INFO  | 2020-10-13 16:06:46 | [main] TestMaximum.FindMaximum (FindMaximum.java:33) - Enter Number 1 : 
+INFO  | 2020-10-13 16:06:50 | [main] TestMaximum.FindMaximum (FindMaximum.java:35) - Enter Number 2 : 
+INFO  | 2020-10-13 16:06:51 | [main] TestMaximum.FindMaximum (FindMaximum.java:37) - Enter Number 3 : 
+INFO  | 2020-10-13 16:07:02 | [main] TestMaximum.FindMaximum (FindMaximum.java:33) - Enter Number 1 : 
+INFO  | 2020-10-13 16:07:04 | [main] TestMaximum.FindMaximum (FindMaximum.java:35) - Enter Number 2 : 
+INFO  | 2020-10-13 16:07:05 | [main] TestMaximum.FindMaximum (FindMaximum.java:37) - Enter Number 3 : 
+INFO  | 2020-10-13 16:08:53 | [main] TestMaximum.FindMaximum (FindMaximum.java:27) - Maximum Number is : 93
+INFO  | 2020-10-13 16:08:53 | [main] TestMaximum.FindMaximum (FindMaximum.java:27) - Maximum Number is : 92
+INFO  | 2020-10-13 16:08:53 | [main] TestMaximum.FindMaximum (FindMaximum.java:27) - Maximum Number is : 32
+INFO  | 2020-10-13 16:12:25 | [main] TestMaximum.FindMaximum (FindMaximum.java:33) - Enter Number 1 : 
+INFO  | 2020-10-13 16:12:28 | [main] TestMaximum.FindMaximum (FindMaximum.java:35) - Enter Number 2 : 
+INFO  | 2020-10-13 16:12:29 | [main] TestMaximum.FindMaximum (FindMaximum.java:37) - Enter Number 3 : 
+INFO  | 2020-10-13 16:12:31 | [main] TestMaximum.FindMaximum (FindMaximum.java:27) - Maximum Number is : 76
+INFO  | 2020-10-13 16:21:56 | [main] TestMaximum.FindMaximum (FindMaximum.java:36) - Enter Number 1 : 
+INFO  | 2020-10-13 16:21:59 | [main] TestMaximum.FindMaximum (FindMaximum.java:38) - Enter Number 2 : 
+INFO  | 2020-10-13 16:22:01 | [main] TestMaximum.FindMaximum (FindMaximum.java:40) - Enter Number 3 : 
+INFO  | 2020-10-13 16:22:03 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number is : 30
+INFO  | 2020-10-13 16:22:12 | [main] TestMaximum.FindMaximum (FindMaximum.java:36) - Enter Number 1 : 
+INFO  | 2020-10-13 16:22:15 | [main] TestMaximum.FindMaximum (FindMaximum.java:38) - Enter Number 2 : 
+INFO  | 2020-10-13 16:22:19 | [main] TestMaximum.FindMaximum (FindMaximum.java:40) - Enter Number 3 : 
+INFO  | 2020-10-13 16:22:21 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number is : 725
+INFO  | 2020-10-13 16:22:30 | [main] TestMaximum.FindMaximum (FindMaximum.java:36) - Enter Number 1 : 
+INFO  | 2020-10-13 16:22:32 | [main] TestMaximum.FindMaximum (FindMaximum.java:38) - Enter Number 2 : 
+INFO  | 2020-10-13 16:22:35 | [main] TestMaximum.FindMaximum (FindMaximum.java:40) - Enter Number 3 : 
+INFO  | 2020-10-13 16:22:37 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number is : 45
+INFO  | 2020-10-13 16:22:45 | [main] TestMaximum.FindMaximum (FindMaximum.java:36) - Enter Number 1 : 
+INFO  | 2020-10-13 16:22:46 | [main] TestMaximum.FindMaximum (FindMaximum.java:38) - Enter Number 2 : 
+INFO  | 2020-10-13 16:22:48 | [main] TestMaximum.FindMaximum (FindMaximum.java:40) - Enter Number 3 : 
+INFO  | 2020-10-13 16:22:50 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number is : 7888
+INFO  | 2020-10-13 16:29:50 | [main] TestMaximum.FindMaximum (FindMaximum.java:36) - Enter Number 1 : 
+INFO  | 2020-10-13 16:29:54 | [main] TestMaximum.FindMaximum (FindMaximum.java:38) - Enter Number 2 : 
+INFO  | 2020-10-13 16:29:54 | [main] TestMaximum.FindMaximum (FindMaximum.java:36) - Enter Number 1 : 
+INFO  | 2020-10-13 16:29:56 | [main] TestMaximum.FindMaximum (FindMaximum.java:38) - Enter Number 2 : 
+INFO  | 2020-10-13 16:29:58 | [main] TestMaximum.FindMaximum (FindMaximum.java:40) - Enter Number 3 : 
+INFO  | 2020-10-13 16:30:00 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number is : 87576
+INFO  | 2020-10-13 16:51:26 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number is : 93
+INFO  | 2020-10-13 16:51:27 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number is : 92
+INFO  | 2020-10-13 16:51:27 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number is : 32
+INFO  | 2020-10-13 16:54:05 | [main] TestMaximum.FindMaximum (FindMaximum.java:25) - Enter Number 1 : 
+INFO  | 2020-10-13 16:54:08 | [main] TestMaximum.FindMaximum (FindMaximum.java:27) - Enter Number 2 : 
+INFO  | 2020-10-13 16:54:08 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Enter Number 3 : 
+INFO  | 2020-10-13 16:54:12 | [main] TestMaximum.FindMaximum (FindMaximum.java:18) - Maximum Number is : 434
