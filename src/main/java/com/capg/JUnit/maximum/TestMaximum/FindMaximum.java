@@ -17,15 +17,22 @@ public class FindMaximum<T extends Comparable<T>> {
 		return findMax(myArray);
 
 	}
-
-	public static <T extends Comparable<T>> T findMax(T[] myArrayListElement) {
-		int tryIndex = 0;
-		for (int index = 1; index < myArrayListElement.length; index++)
-			if (myArrayListElement[index].compareTo(myArrayListElement[tryIndex]) > 0)
-				tryIndex = index;
-		return myArrayListElement[tryIndex];
+	public T getMaximum() {
+		printMaximum(findMax(myArray));
+		return findMax(myArray);
+	}
+	private void printMaximum(T maxElement) {
+		LOG.info("The maximum element is : "+maxElement);
 	}
 
+	public static <T extends Comparable<T>> T findMax(T[] elementList) {
+		int tryIndex = 0;
+		for (int index = 1; index < elementList.length; index++) 
+			if (elementList[index].compareTo(elementList[tryIndex]) > 0) 
+				tryIndex = index;
+        return elementList[tryIndex];
+		}
+	
 	public static void main(String[] args) {
 
 		Integer[] integerArray = { 32, 23, 46, 93, 66 };
