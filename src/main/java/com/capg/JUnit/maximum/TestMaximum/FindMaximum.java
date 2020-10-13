@@ -9,26 +9,22 @@ public class FindMaximum {
 	private static Logger LOG = LogManager.getLogger(FindMaximum.class);
 	static Scanner sc = new Scanner(System.in);
 
-	public static Integer findMaximumInteger(Integer number1, Integer number2, Integer number3) {
-		Integer maximumOfThree = number1;
-		if (number2.compareTo(number1) > 0)
-			maximumOfThree = number2;
-		if (number3.compareTo(number1) > 0)
-			maximumOfThree = number3;
-		LOG.info("Maximum Number is : " + maximumOfThree);
+	public static <T extends Comparable<T>> T findMax(T firstValue, T secondValue, T thirdValue) {
+		T maximumOfThree = firstValue;
+		if (secondValue.compareTo(maximumOfThree) > 0) {
+			maximumOfThree = secondValue;
+		}
+		if (thirdValue.compareTo(maximumOfThree) > 0) {
+			maximumOfThree = thirdValue;
+		}
 		return maximumOfThree;
-
 	}
 
 	public static void main(String[] args) {
 
-		LOG.info("Enter Number 1 : ");
-		Integer n1 = sc.nextInt();
-		LOG.info("Enter Number 2 : ");
-		Integer n2 = sc.nextInt();
-		LOG.info("Enter Number 3 : ");
-		Integer n3 = sc.nextInt();
-		findMaximumInteger(n1, n2, n3);
+		LOG.info("Maximum Number in 32,23,46 is : " + findMax(32, 23, 46));
+		LOG.info("Maximum Number in 2.5f,3.5f,9.5f is : " + findMax(2.5f, 3.5f, 9.5f));
+		LOG.info("Maximum String in Apple,Peach,Banana is : " + findMax("Apple", "Peach", "Banana"));
 
 	}
 }
