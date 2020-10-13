@@ -43,3 +43,17 @@ INFO  | 2020-10-13 16:54:05 | [main] TestMaximum.FindMaximum (FindMaximum.java:2
 INFO  | 2020-10-13 16:54:08 | [main] TestMaximum.FindMaximum (FindMaximum.java:27) - Enter Number 2 : 
 INFO  | 2020-10-13 16:54:08 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Enter Number 3 : 
 INFO  | 2020-10-13 16:54:12 | [main] TestMaximum.FindMaximum (FindMaximum.java:18) - Maximum Number is : 434
+INFO  | 2020-10-13 17:18:36 | [main] TestMaximum.FindMaximum (FindMaximum.java:18) - Maximum Number in 32,23,46 is : 46
+INFO  | 2020-10-13 17:18:36 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number in 2.5f,3.5f,9.5f is : 9.5
+INFO  | 2020-10-13 17:19:06 | [main] TestMaximum.FindMaximum (FindMaximum.java:18) - Maximum Number in 32,23,46 is : 93
+INFO  | 2020-10-13 17:19:06 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number in 2.5f,3.5f,9.5f is : 9.1
+INFO  | 2020-10-13 17:19:06 | [main] TestMaximum.FindMaximum (FindMaximum.java:18) - Maximum Number in 32,23,46 is : 98
+INFO  | 2020-10-13 17:19:06 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number in 2.5f,3.5f,9.5f is : 9.1
+INFO  | 2020-10-13 17:19:06 | [main] TestMaximum.FindMaximum (FindMaximum.java:18) - Maximum Number in 32,23,46 is : 32
+INFO  | 2020-10-13 17:19:06 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number in 2.5f,3.5f,9.5f is : 9.1
+INFO  | 2020-10-13 17:19:49 | [main] TestMaximum.FindMaximum (FindMaximum.java:18) - Maximum Number in 32,23,46 is : 93
+INFO  | 2020-10-13 17:19:49 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number in 2.5f,3.5f,9.5f is : 9.1
+INFO  | 2020-10-13 17:19:49 | [main] TestMaximum.FindMaximum (FindMaximum.java:18) - Maximum Number in 32,23,46 is : 98
+INFO  | 2020-10-13 17:19:49 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number in 2.5f,3.5f,9.5f is : 9.1
+INFO  | 2020-10-13 17:19:49 | [main] TestMaximum.FindMaximum (FindMaximum.java:18) - Maximum Number in 32,23,46 is : 32
+INFO  | 2020-10-13 17:19:49 | [main] TestMaximum.FindMaximum (FindMaximum.java:29) - Maximum Number in 2.5f,3.5f,9.5f is : 9.1
