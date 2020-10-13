@@ -99,3 +99,9 @@ INFO  | 2020-10-13 19:18:24 | [main] TestMaximum.FindMaximum (FindMaximum.java:4
 INFO  | 2020-10-13 19:31:11 | [main] TestMaximum.FindMaximum (FindMaximum.java:41) - Maximum Number in 32,23,46 is : 46
 INFO  | 2020-10-13 19:31:11 | [main] TestMaximum.FindMaximum (FindMaximum.java:42) - Maximum Number in 2.5f,3.5f,9.5f is : 9.5
 INFO  | 2020-10-13 19:31:11 | [main] TestMaximum.FindMaximum (FindMaximum.java:43) - Maximum String in Apple,Peach,Banana is : Peach
+INFO  | 2020-10-13 22:36:11 | [main] TestMaximum.FindMaximum (FindMaximum.java:32) - Maximum Number in 32,23,46,93,66 is : 93
+INFO  | 2020-10-13 22:36:11 | [main] TestMaximum.FindMaximum (FindMaximum.java:35) - Maximum Number in 1.1f,2.1f,3.1f,4.1f is : 4.1
+INFO  | 2020-10-13 22:36:11 | [main] TestMaximum.FindMaximum (FindMaximum.java:38) - Maximum String in hi,hello,hey,hola is : hola
+INFO  | 2020-10-13 22:41:41 | [main] TestMaximum.FindMaximum (FindMaximum.java:32) - Maximum Number in 32,23,46,93,66 is : 93
+INFO  | 2020-10-13 22:41:41 | [main] TestMaximum.FindMaximum (FindMaximum.java:35) - Maximum Number in 1.1f,2.1f,3.1f,4.1f is : 4.1
+INFO  | 2020-10-13 22:41:41 | [main] TestMaximum.FindMaximum (FindMaximum.java:38) - Maximum String in hi,hello,hey,hola is : hola
